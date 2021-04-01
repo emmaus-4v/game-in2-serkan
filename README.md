@@ -9,12 +9,12 @@ Gemaakt door:
 
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
-- [ ] balkjes
+- [ ] balkje (speler) maken
 - [ ] beweeg speler (links naar rachts en omgekeerd)
-- [ ] achtergrond
 - [ ] balletje
+- [ ] tegenstanders
 - [ ] punten kunnen scoren
-- [ ] uitlegscherm
+- [ ] levenspunten
 
 Uitbreiding: *bedenk iets, bijvoorbeeld meer tegenstanders*
 - [ ] *later uitwerken*

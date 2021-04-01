@@ -22,8 +22,8 @@ const SPELEN = 1;
 const GAMEOVER = 2;
 var spelStatus = SPELEN;
 
-var spelerX = 200; // x-positie van speler
-var spelerY = 100; // y-positie van speler
+var spelerX = 550; // x-positie van speler
+var spelerY = 650; // y-positie van speler
 
 var kogelX = 0;    // x-positie van kogel
 var kogelY = 0;    // y-positie van kogel
@@ -80,7 +80,7 @@ var tekenKogel = function(x, y) {
  */
 var tekenSpeler = function(x, y) {
   fill("white");
-  ellipse(x, y, 50, 50);
+  rect(mouseX, y, 200, 25);
 };
 
 
@@ -164,7 +164,8 @@ function draw() {
     case SPELEN:
       beweegVijand();
       beweegKogel();
-      beweegSpeler();
+      beweegSpeler(
+      );
       
       if (checkVijandGeraakt()) {
         // punten erbij
