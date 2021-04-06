@@ -80,7 +80,7 @@ ellipse( x, y, 50, 50 );
  */
 var tekenSpeler = function(x, y) {
   fill("white");
-  rect(mouseX, y, 200, 25);
+  rect(x, y, 200, 25);
 };
 
 
@@ -105,7 +105,7 @@ var beweegKogel = function() {
  * Updatet globale variabele spelerX en spelerY
  */
 var beweegSpeler = function() {
-
+ spelerX= mouseX;
 };
 
 
@@ -164,8 +164,7 @@ function draw() {
     case SPELEN:
       beweegVijand();
       beweegKogel();
-      beweegSpeler(
-      );
+      beweegSpeler();
       
       if (checkVijandGeraakt()) {
         // punten erbij

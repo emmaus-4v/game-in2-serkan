@@ -12,6 +12,9 @@ Basis: uitleg, spelen, afgaan en punten
 - [x] balkje (speler) maken
 - [x] beweeg speler (links naar rachts en omgekeerd)
 - [ ] balletje bewegen
+- [ ] balletje kaatsen tegen dee rand
+- [ ] af als balletje onderaan uit scherm gaat
+- [ ] balletje tegen plank laten kaatsen
 - [ ] tegenstanders
 - [ ] punten kunnen scoren
 - [ ] levenspunten
