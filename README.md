@@ -9,9 +9,9 @@ Gemaakt door:
 
 Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
-- [ ] balkje (speler) maken
-- [ ] beweeg speler (links naar rachts en omgekeerd)
-- [ ] balletje
+- [x] balkje (speler) maken
+- [x] beweeg speler (links naar rachts en omgekeerd)
+- [ ] balletje bewegen
 - [ ] tegenstanders
 - [ ] punten kunnen scoren
 - [ ] levenspunten

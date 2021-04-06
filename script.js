@@ -25,8 +25,8 @@ var spelStatus = SPELEN;
 var spelerX = 550; // x-positie van speler
 var spelerY = 650; // y-positie van speler
 
-var kogelX = 0;    // x-positie van kogel
-var kogelY = 0;    // y-positie van kogel
+var kogelX = 550;    // x-positie van kogel
+var kogelY = 600;    // y-positie van kogel
 
 var vijandX = 0;   // x-positie van vijand
 var vijandY = 0;   // y-positie van vijand
@@ -68,8 +68,8 @@ var tekenVijand = function(x, y) {
  * @param {number} y y-coördinaat
  */
 var tekenKogel = function(x, y) {
-
-
+fill(255, 0, 0);
+ellipse( x, y, 50, 50 );
 };
 
 
