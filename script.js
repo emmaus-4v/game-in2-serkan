@@ -31,6 +31,9 @@ var kogelY = 600;    // y-positie van kogel
 var vijandX = 0;   // x-positie van vijand
 var vijandY = 0;   // y-positie van vijand
 
+var snelheidX = 2;  // x-positie snelheid van balletje 
+var snelheidY = 2;  // y-positie snelheid van balletje 
+
 var score = 0; // aantal behaalde punten
 
 
