@@ -28,8 +28,8 @@ var spelerY = 650; // y-positie van speler
 var kogelX = 550;    // x-positie van kogel
 var kogelY = 600;    // y-positie van kogel
 
-var vijandX = 0;   // x-positie van vijand
-var vijandY = 0;   // y-positie van vijand
+var vijandX = 550;   // x-positie van vijand
+var vijandY = 100;   // y-positie van vijand
 
 var snelheidX = 2;  // x-positie snelheid van balletje 
 var snelheidY = 2;  // y-positie snelheid van balletje 
@@ -61,7 +61,6 @@ var tekenVeld = function () {
  */
 var tekenVijand = function(x, y) {
     
-
 };
 
 
@@ -101,7 +100,25 @@ var beweegVijand = function() {
 
  
 var beweegKogel = function() {
-   
+    if (kogelX < 50) {
+       snelheidX = 5  
+   }
+
+   if (kogelX > 1233) {
+       snelheidX = -5   
+   }
+
+   if (kogelY < 50) {
+       snelheidY = 5  
+   }
+
+   if (kogelY > 673) {
+       snelheidY = -5   
+   }
+ 
+   kogelX = kogelX + snelheidX;
+    kogelY = kogelY + snelheidY;
+
 };
 
 

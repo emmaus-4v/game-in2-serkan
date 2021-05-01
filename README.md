@@ -11,8 +11,8 @@ Basis: uitleg, spelen, afgaan en punten
 - [x] maak index.html, style.css en script.js met canvas
 - [x] balkje (speler) maken
 - [x] beweeg speler (links naar rachts en omgekeerd)
-- [ ] balletje bewegen
-- [ ] balletje kaatsen tegen dee rand
+- [x] balletje bewegen
+- [x] balletje kaatsen tegen dee rand
 - [ ] af als balletje onderaan uit scherm gaat
 - [ ] balletje tegen plank laten kaatsen
 - [ ] tegenstanders
