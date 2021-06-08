@@ -60,7 +60,10 @@ var tekenVeld = function () {
  * @param {number} y y-coördinaat
  */
 var tekenVijand = function(x, y) {
-    
+    fill("white");
+  rect(x, y, 150, 50);
+  rect(350, 100, 150, 50);
+  rect(750, 100, 150, 50);
 };
 
 
