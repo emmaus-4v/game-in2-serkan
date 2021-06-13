@@ -31,8 +31,9 @@ var kogelY = 600;    // y-positie van kogel
 var vijandX = 550;   // x-positie van vijand
 var vijandY = 100;   // y-positie van vijand
 
-var snelheidX = 2;  // x-positie snelheid van balletje 
+var snelheidX = 2;  // x-positie snelheid van balletje
 var snelheidY = 2;  // y-positie snelheid van balletje 
+
 
 var score = 0; // aantal behaalde punten
 
@@ -62,8 +63,10 @@ var tekenVeld = function () {
 var tekenVijand = function(x, y) {
     fill("white");
   rect(x, y, 150, 50);
-  rect(350, 100, 150, 50);
-  rect(750, 100, 150, 50);
+  rect(x-200, y, 150, 50);
+  rect(x+200, y, 150, 50);
+  rect(x-100, y+100, 150, 50);
+  rect(x+100, y+100, 150, 50);
 };
 
 
@@ -93,7 +96,8 @@ var tekenSpeler = function(x, y) {
  * Updatet globale variabelen met positie van vijand of tegenspeler
  */
 var beweegVijand = function() {
-    
+  
+
 };
 
 
@@ -202,8 +206,8 @@ function draw() {
       }
 
       tekenVeld();
-      tekenVijand(vijandX, vijandY);
       tekenKogel(kogelX, kogelY);
+      tekenVijand(vijandX, vijandY);
       tekenSpeler(spelerX, spelerY);
 
       if (checkGameOver()) {

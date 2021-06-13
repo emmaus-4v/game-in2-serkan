@@ -15,7 +15,8 @@ Basis: uitleg, spelen, afgaan en punten
 - [x] balletje kaatsen tegen dee rand
 - [ ] af als balletje onderaan uit scherm gaat
 - [ ] balletje tegen plank laten kaatsen
-- [ ] tegenstanders
+- [x] tegenstanders
+- [x] tegenstanders bewegen
 - [ ] punten kunnen scoren
 - [ ] levenspunten
 
